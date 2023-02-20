@@ -1,0 +1,46 @@
+/* BEM is a naming naming convention to develop maintanable code
+
+B - Blcok
+E - Element
+M - Modifier
+
+1.Blcok represents the higher level of an abstraction or component. It is independent and reusable.
+eg .card , .button, .image
+
+.car {
+  background : rgb(255, 255, 255);
+  border : 1px solid rgb(0, 0, 0);
+  border-radius : 5px;
+  width : 300px;
+  height : 300px;
+}
+
+2.Element represents a part of a block that has no standalone meaning. It semantically tied to its block.
+
+use __ to separate the block and element
+
+eg .card__title, .card__image, .card__description
+
+.card__title {
+  font-size : 20px;
+  font-weight : bold;
+  color : rgb(0, 0, 0);
+}
+
+3.Modifier represents a different state or version of a block or element.
+
+use -- to separate the block or element and modifier
+
+eg .card__button--primary, .card__button--secondary
+
+.card__buttom--prmary {
+  background : rgb(0, 0, 0);
+  color : rgb(255, 255, 255);
+}
+
+.card__buttom--secondary {
+  background : rgb(255, 255, 255);
+  color : rgb(0, 0, 0);
+}
+
+*/
