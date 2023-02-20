@@ -1,8 +1,8 @@
 /* BEM is a naming naming convention to develop maintanable code
 
-B - Blcok
-E - Element
-M - Modifier
+B - Blcok; shape
+E - Element; shape
+M - Modifier; style
 
 1.Blcok represents the higher level of an abstraction or component. It is independent and reusable.
 eg .card , .button, .image
